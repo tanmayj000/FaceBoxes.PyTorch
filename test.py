@@ -81,9 +81,9 @@ if __name__ == '__main__':
 
 
     # save file
-    if not os.path.exists(args.save_folder):
-        os.makedirs(args.save_folder)
-    fw = open(os.path.join(args.save_folder, args.dataset + '_dets.txt'), 'w')
+    #if not os.path.exists(args.save_folder):
+        #os.makedirs(args.save_folder)
+    #fw = open(os.path.join(args.save_folder, args.dataset + '_dets.txt'), 'w')
 
     '''# testing dataset
     testset_folder = os.path.join('data', args.dataset, 'images/')
