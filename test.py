@@ -12,7 +12,7 @@ import cv2
 from models.faceboxes import FaceBoxes
 from utils.box_utils import decode
 from utils.timer import Timer
-from google.colab.batches import cv2_imshow
+from google.colab.patches import cv2_imshow
 
 parser = argparse.ArgumentParser(description='FaceBoxes')
 
