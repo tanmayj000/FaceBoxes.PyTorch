@@ -99,7 +99,7 @@ if __name__ == '__main__':
         resize = 2.5
     elif args.dataset == "AFW":
         resize = 1'''
-
+    resize = 2.5
     _t = {'forward_pass': Timer(), 'misc': Timer()}
     img_path = '/content/test.jpg'
     img_raw = cv2.imread(img_path, cv2.IMREAD_COLOR)
