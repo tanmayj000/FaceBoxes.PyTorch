@@ -101,6 +101,7 @@ if __name__ == '__main__':
         resize = 1'''
 
     _t = {'forward_pass': Timer(), 'misc': Timer()}
+    img_path = '/content/test.jpg'
     img_raw = cv2.imread(img_path, cv2.IMREAD_COLOR)
     img = np.float32(img_raw)
     im_height, im_width, _ = img.shape
