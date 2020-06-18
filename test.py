@@ -154,7 +154,7 @@ if __name__ == '__main__':
             cy = b[1] + 12
             cv2.putText(img_raw, text, (cx, cy),
                         cv2.FONT_HERSHEY_DUPLEX, 0.5, (255, 255, 255))
-        cv2.imshow('res', img_raw)
+        cv2_imshow(img_raw)
         cv2.waitKey(0)
     
     
